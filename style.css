@@ -100,7 +100,7 @@ details summary:hover {
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.6;
   color: #ddd;
   background: rgba(0, 0, 0, 0.4);
@@ -113,6 +113,7 @@ pre {
   text-align: left;
 }
 
+/* استایل دکمه‌ها */
 button {
   color: white;
   border: none;
@@ -126,6 +127,7 @@ button {
   margin-bottom: 12px;
 }
 
+/* دکمه کپی کل متن */
 .btn-copy {
   background: linear-gradient(135deg, #4caf50, #2e7d32);
   box-shadow: 0 8px 20px rgba(76, 175, 80, 0.3);
@@ -136,6 +138,7 @@ button {
   box-shadow: 0 12px 28px rgba(76, 175, 80, 0.5);
 }
 
+/* دکمه کپی موضوع */
 .btn-subject {
   background: linear-gradient(135deg, #ff9800, #e65100);
   box-shadow: 0 8px 20px rgba(255, 152, 0, 0.3);
@@ -148,6 +151,7 @@ button {
   box-shadow: 0 12px 28px rgba(255, 152, 0, 0.5);
 }
 
+/* دکمه mailto */
 .btn-mail {
   background: linear-gradient(135deg, #0088cc, #006699);
   box-shadow: 0 8px 20px rgba(0, 136, 204, 0.3);
@@ -164,6 +168,7 @@ button:active {
   transform: translateY(0);
 }
 
+/* بخش راهنما */
 .manual-steps {
   background: rgba(0, 0, 0, 0.35);
   border-radius: 14px;
@@ -191,6 +196,7 @@ button:active {
   display: inline-block;
 }
 
+/* متن‌های پایین صفحه */
 .note {
   margin-top: 15px;
   font-size: 12px;
