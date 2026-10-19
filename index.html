@@ -1,70 +1,51 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ابزار گزارش تخلف تلگرام</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>گزارش تخلف - @hamedan1404</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>⚖️ گزارش تخلف به تلگرام</h1>
-    <p class="subtitle">
-      با یک کلیک، ایمیل گزارش به تیم Trust & Safety تلگرام ارسال کنید
-    </p>
+  <div class="container">
+    <h1>⚖️ گزارش تخلف به تلگرام</h1>
+    <p class="subtitle">
+      با یک کلیک، ایمیل گزارش به تیم Trust & Safety تلگرام ارسال کنید
+    </p>
 
-    <div class="target-card">
-      <div class="target-label">هدف گزارش:</div>
-      <div class="target-name">@hamedan1404</div>
-      <a href="https://t.me/hamedan1404" target="_blank" class="target-link">
-        https://t.me/hamedan1404
-      </a>
-    </div>
+    <div class="target-card">
+      <div class="target-label">هدف گزارش:</div>
+      <div class="target-name">@hamedan1404</div>
+      <a href="https://t.me/hamedan1404" target="_blank" class="target-link">
+        https://t.me/hamedan1404
+      </a>
+    </div>
 
-    <div class="preview">
-      <div class="preview-header">
-        <span>📧 abuse@telegram.org</span>
-        <span id="counter">آماده برای ارسال</span>
-      </div>
-      <details>
-        <summary>مشاهده متن گزارش</summary>
-        <pre id="emailPreview"></pre>
-      </details>
-    </div>
+    <div class="preview">
+      <div class="preview-header">
+        <span>📧 abuse@telegram.org</span>
+        <span id="counter">آماده برای ارسال</span>
+      </div>
+      <details>
+        <summary>مشاهده متن کامل گزارش</summary>
+        <pre id="emailPreview"></pre>
+      </details>
+    </div>
 
-    <!-- دکمه‌های کپی برای اطمینان از ارسال متن کامل -->
-    <button id="copyBtn" class="btn-copy">
-      📋 کپی متن کامل گزارش
-    </button>
-    <button id="copySubjectBtn" class="btn-subject">
-      📝 کپی فقط موضوع (Subject)
-    </button>
+    <button id="reportBtn">
+      📨 ارسال گزارش برای تلگرام
+    </button>
 
-    <div class="manual-steps">
-      <h3>📌 راهنمای ارسال:</h3>
-      <ol>
-        <li>روی دکمه «کپی متن کامل گزارش» بزنید</li>
-        <li>اپ ایمیل خود را باز کنید</li>
-        <li>یک ایمیل جدید به <strong>abuse@telegram.org</strong> بسازید</li>
-        <li>موضوع (Subject) را کپی کنید</li>
-        <li>متن کپی‌شده را در بدنه ایمیل Paste کنید</li>
-        <li>دکمه <strong>Send</strong> را بزنید</li>
-      </ol>
-    </div>
+    <p class="note">
+      با کلیک روی دکمه، اپلیکیشن ایمیل شما باز می‌شود و متن گزارش از قبل پر شده است.
+      فقط کافیست دکمه <strong>Send</strong> را بزنید.
+    </p>
+    <p class="note warning">
+      ⚠️ اگر روی موبایل هستید، از اپ ایمیل پیش‌فرض استفاده کنید.
+      روی دسکتاپ، اگر اپ ایمیل ندارید، از Gmail در مرورگر استفاده کنید.
+    </p>
+  </div>
 
-    <button id="reportBtn" class="btn-mail">
-      📨 باز کردن ایمیل تلگرام (mailto)
-    </button>
-
-    <p class="note">
-      با کلیک روی دکمه mailto، اپلیکیشن ایمیل شما باز می‌شود و متن گزارش از قبل پر شده است.
-      فقط کافیست دکمه <strong>Send</strong> را بزنید.
-    </p>
-    <p class="note warning">
-      ⚠️ اگر روی موبایل هستید و دکمه mailto کار نکرد، از روش «کپی متن» استفاده کنید.
-    </p>
-  </div>
-
-  <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
